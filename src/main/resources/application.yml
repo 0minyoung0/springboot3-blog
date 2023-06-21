@@ -16,6 +16,12 @@ spring:
       client:
         registration:
           google:
+            client-id: 
+            client-secret:
             scope:
               - email
               - profile
+
+jwt:
+  issuer:
+  secret_key:
